@@ -19,14 +19,12 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
-
 ## PROGRAM:
 /*
 Program to print the text “optionmenu”.
 Developed by: DHARSHAN S
 Registeration Number : 212222040036
 */
-
 ## MainActivity.java
 ```
 package com.example.ex13;
@@ -95,9 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-
 ## activity_main.xml
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -135,8 +131,6 @@ public class MainActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 ## OUTPUT
-![Screenshot from 2024-11-11 14-11-01](https://github.com/user-attachments/assets/d722c926-c087-47b7-9e64-7104f11ea212)
-![Screenshot from 2024-11-11 14-11-22](https://github.com/user-attachments/assets/83ad5e2e-776d-4a85-9ff1-58f76f47859a)
-
+![Screenshot from 2024-11-11 14-11-01](https://github.com/user-attachments/assets/d722c926-c087-47b7-9e64-7104f11ea212)![Screenshot from 2024-11-11 14-11-22](https://github.com/user-attachments/assets/83ad5e2e-776d-4a85-9ff1-58f76f47859a)
 ## RESULT
   Thus a Simple Android Application to create an program that handles thread sychronization using Android Studio is developed and executed successfully.
