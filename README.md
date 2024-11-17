@@ -22,25 +22,22 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 /*
-```
-Developed by:DHARSHAN S
+Program to print the text “optionmenu”.
+Developed by: DHARSHAN S
 Registeration Number : 212222040036
-```
 */
 
 ## MainActivity.java
 ```
-package com.example.exp13;
+package com.example.ex13;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 import java.util.concurrent.Semaphore;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -98,7 +95,9 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-## activity_main.xml:
+
+## activity_main.xml
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -135,10 +134,11 @@ public class MainActivity extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/8959ab62-39b5-4d81-b029-200b2f5ab089)
+
+![Screenshot from 2024-11-11 14-11-01](https://github.com/user-attachments/assets/d722c926-c087-47b7-9e64-7104f11ea212)![Screenshot from 2024-11-11 14-11-22](https://github.com/user-attachments/assets/83ad5e2e-776d-4a85-9ff1-58f76f47859a)
+
 
 ## RESULT
-The application is successfully displayed for thread synchronization concept with the help of clicking the button in Android Studio.
-
-
+  Thus a Simple Android Application to create an program that handles thread sychronization using Android Studio is developed and executed successfully.
